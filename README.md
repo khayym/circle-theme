@@ -1,35 +1,30 @@
 
-# Circle Theme
+# "inquire.dev" üçün hazırlanmış Blog veb program
 
-## A Powerful theme for powerful Thinkers for free 💸.
-### React + Tailwind = ❤️
+## Blog web application with a special admin access with a humorous style and user-friendly interface ❤️.
+### 
 
-![Screenshot 2021-10-20 at 3 26 18 PM](https://user-images.githubusercontent.com/16558205/138075716-81961cf1-fad6-4012-9e24-2e7ee24ee227.png)
+![Screenshot 2021-10-20 at 3 26 18 PM](https://firebasestorage.googleapis.com/v0/b/foody-main.appspot.com/o/Ekran%20%C5%9F%C9%99kli%202022-04-14%20043914.jpg?alt=media&token=31adb5ca-c689-4296-a678-74c07985f8b1)
 
 
-To view a live example, **[click here](https://circletheme.netlify.app/)**.
+To view a live example, **[click here](blog-react-zeta.vercel.app)**.
 
-Feel free to use it as-is or customize it as much as you want.
+I developed this application in the most unique version in 2 days as soon as possible
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/chetanverma16/circle-theme/issues).
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/chetanverma16/circle-theme/pulls).
 
 ## Features
-- Responsive
-- Modern Design
-- Clean Animations
-- Easy to use
-- tailwindcss
+- Responsive Desing
+- Fast Interface
+- Admin Auth (for add,update,delete posts)
+- Beautiful desing
+- Simple usage
+- Animations
 
 
 ## Pages
-✔️ Index
-✔️ About
-✔️ Blog
-✔️ Pricing
-✔️ Career
-✔️ Contact
+✔️ Home
+✔️ Post
+✔️ Login
 
 ## How To Use 
 
@@ -37,42 +32,41 @@ From your command line, clone and run react-portfolio-template:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/chetanverma16/circle-theme.git
+$ git clone https://github.com/khayym/blog-react.git
 
 # Go into the repository
-$ cd circle-theme
+$ cd blog-react
 
 # Install dependencies
-$ yarn
+$ npm
 
 #Start's development server
-$ gatsby develop
+$ npm start
 ```
-
-## Deployment
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/circle-theme)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
 ## Technologies Used
 
-- [React](https://reactjs.org/)
-- [Gatsby](https://www.gatsbyjs.com/)
+- React 18
+- TypeScript
+- Redux Toolkit
+- Styled-Components
+- React Router v6
+- Firebase Auth (for admin login)
+- Mantine
+- ESLint and Prettier
 
 
+## Usage 
+First you are greeted by the home page. You can look at the posts on the home page, just read them and write a comment.
+![1](https://firebasestorage.googleapis.com/v0/b/foody-main.appspot.com/o/1.jpg?alt=media&token=7073725f-7dbc-4ff3-a283-04baf196a1ca)
 
-## For the Future
-If you have awesome ideas on your mind,
-please don't hesitate to open a [pull request](https://github.com/chetanverma16/circle-theme/pulls).
+After logging in as an admin on the login page, you can create a new post, delete or update an existing post
+![2](https://firebasestorage.googleapis.com/v0/b/foody-main.appspot.com/o/2.jpg?alt=media&token=f8c3ea63-cf4b-42f2-bd53-790edd1fca7e)
+
+After clicking on the given buttons, you can enter the desired information in the module that opens
+![3](https://firebasestorage.googleapis.com/v0/b/foody-main.appspot.com/o/3.jpg?alt=media&token=e2d8eeee-a93c-45fe-9410-66966b2ca59e)
+
 
 ## Thanks
-If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
 
